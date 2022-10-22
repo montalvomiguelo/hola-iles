@@ -8,6 +8,8 @@
     is in progress, but it should provide enough info to get started.
   </WelcomeItem>
 
+  <Counter client:media="screen and (max-width: 600px)" />
+
   <WelcomeItem>
     <template #icon><ToolingIcon /></template>
     <template #heading>Tooling</template>
@@ -17,6 +19,8 @@
     setup is <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> +
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>.
   </WelcomeItem>
+
+  <Counter client:visible />
 
   <WelcomeItem>
     <template #icon><CommunityIcon /></template>
