@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     Counter: typeof import('./src/components/Counter.vue')['default']
     DocumentationIcon: typeof import('./src/components/icons/DocumentationIcon.vue')['default']
     EcosystemIcon: typeof import('./src/components/icons/EcosystemIcon.vue')['default']
+    Footer: typeof import('./src/components/Footer.vue')['default']
     FrameworkLink: typeof import('./src/components/FrameworkLink.jsx')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     Island: typeof import('./node_modules/.pnpm/iles@0.8.6/node_modules/iles/dist/client/app/components/Island.vue')['default']
